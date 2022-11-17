@@ -6,7 +6,7 @@
 .heading {
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 42%;
+    text-align: center;
 }
 .topbar {
     height: 55px; 
@@ -24,6 +24,3 @@ img.home {
     top: -55px;
     padding-right: 35px;
 }
-hr.new1 {
-    border-top: 1px solid red;
-  }
