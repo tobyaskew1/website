@@ -1,0 +1,24 @@
+.line {
+    height: 5px;
+    background-color: #88d8c0;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 42%;
+}
+.topbar {
+    height: 55px; 
+}
+img.logo {
+    position: relative;
+    float: left;
+    height: 75px;
+    width: 75px;
+    top: -23px; 
+}
+img.Home {
+    height: 75px;
+    width: 75px;
+}
