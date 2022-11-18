@@ -6,17 +6,17 @@
 .heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: blue;
+    color: purple;
 }
 .topbar {
-    height: 55px; 
+    height: 10%; 
 }
 img.logo {
     position: absolute;
     float: left;
     height: 75px;
     width: 75px;
-    top: -2px;
+    top: 0%;
 }
 img.home {
     position: relative;
