@@ -6,7 +6,7 @@
 .heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: purple;
+    color: green;
 }
 .topbar {
     height: 10%; 
@@ -18,9 +18,51 @@ img.logo {
     width: 75px;
     top: 0%;
 }
-img.home {
-    position: relative;
-    float: right;
-    top: -55px;
-    padding-right: 35px;
+.navbar {
+    padding:20px;
+    align-items: center;
+}
+.Home {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    align-items: center;
+    margin: auto;
+    margin-left: 35%;
+}
+.Projects {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    align-items: center;
+    margin: auto;
+    margin-left: 5%;
+}
+.welcome {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: 50%;
+    opacity: 100%;
+    z-index: 10;
+    text-align: center;
+}
+.mainblock {
+    margin: auto;
+    width: 75%;
+    height: 50px;
+    background-color: purple;
+    opacity: 25%;
+}
+.Home:hover {
+    background-color:#F88379;
+}
+.Projects:hover {
+    background-color:#F88379;
 }
