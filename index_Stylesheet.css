@@ -1,3 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100vh;
+}
+
+.topbar {
+    position: fixed;
+    height: 10%; 
+    background-color: white;
+    width: 100%;
+    z-index: 10;
+}
+
 .line {
     height: 5px;
     background-color: #88d8c0;
@@ -6,11 +21,9 @@
 .heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: green;
+    color: Black;
 }
-.topbar {
-    height: 10%; 
-}
+
 img.logo {
     position: absolute;
     float: left;
@@ -21,6 +34,8 @@ img.logo {
 .navbar {
     padding:20px;
     align-items: center;
+    position: relative;
+    background-color: white;
 }
 .Home {
     color: black;
@@ -46,23 +61,68 @@ img.logo {
     margin: auto;
     margin-left: 5%;
 }
-.welcome {
+.CV {
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    size: 50%;
-    opacity: 100%;
-    z-index: 10;
-    text-align: center;
-}
-.mainblock {
+    text-decoration: none;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    align-items: center;
     margin: auto;
-    width: 75%;
-    height: 50px;
-    background-color: purple;
-    opacity: 25%;
+    margin-left: 5%;
+}
+.Contact {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    align-items: center;
+    margin: auto;
+    margin-left: 5%;
 }
 .Home:hover {
     background-color:#F88379;
 }
 .Projects:hover {
     background-color:#F88379;
+}
+.CV:hover {
+    background-color:#F88379;
+}
+.Contact:hover {
+    background-color:#F88379;
+}
+
+#Projects {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: Black;
+}
+.page {
+    /*position: static;*/
+    padding-top: 7%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: Black;
+}
+
+.insta_follow{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+    padding-left: 39%;
+    
+}
+
+.insta {
+    height: 15%;
+    width: auto;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 0px;
 }
